@@ -1,0 +1,3 @@
+min_silence_duration = 0.1
+min_speech_duration = 0.25
+max_speech_duration = 8.0

@@ -1,0 +1,17 @@
+[package]
+name = "audioalgo"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+sherpa-rs = { git = "https://github.com/thewh1teagle/sherpa-rs.git", default-features = false, features = [
+    "sys",
+] }
+fdk-aac = "0.7.0"
+hound = "3.5.1"
+# sherpa-rs = "0.6.6"
+spdlog-rs = "0.4.3"
+webrtc-audio-processing = "0.4.0"
+toml = "0.8.22"
+serde = { version = "1.0.219", features = ["derive"], default-features = false }
+anyhow = "1.0.98"
